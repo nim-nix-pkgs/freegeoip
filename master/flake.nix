@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-freegeoip-master.flake = false;
+  inputs.src-freegeoip-master.ref   = "refs/heads/master";
   inputs.src-freegeoip-master.owner = "achesak";
-  inputs.src-freegeoip-master.ref   = "master";
   inputs.src-freegeoip-master.repo  = "nim-freegeoip";
   inputs.src-freegeoip-master.type  = "github";
   
