@@ -1,5 +1,5 @@
 {
-  description = ''Retrieve info about a location from an IP address'';
+  description = ''Retrieve info about a location from an IP address '';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -9,7 +9,7 @@
   
   inputs.src-freegeoip-master.flake = false;
   inputs.src-freegeoip-master.owner = "achesak";
-  inputs.src-freegeoip-master.ref   = "refs/heads/master";
+  inputs.src-freegeoip-master.ref   = "master";
   inputs.src-freegeoip-master.repo  = "nim-freegeoip";
   inputs.src-freegeoip-master.type  = "github";
   
